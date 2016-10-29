@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683B4B671DC4E5A60083202F /* currentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B4B661DC4E5A60083202F /* currentWeather.swift */; };
+		68623C5B1DC4E2D400CFD2A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68623C5A1DC4E2D400CFD2A3 /* Constants.swift */; };
 		68DD1A551DBEA3EE00AE1CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD1A541DBEA3EE00AE1CA7 /* AppDelegate.swift */; };
-		68DD1A571DBEA3EE00AE1CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD1A561DBEA3EE00AE1CA7 /* ViewController.swift */; };
+		68DD1A571DBEA3EE00AE1CA7 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD1A561DBEA3EE00AE1CA7 /* WeatherVC.swift */; };
 		68DD1A5A1DBEA3EE00AE1CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD1A581DBEA3EE00AE1CA7 /* Main.storyboard */; };
 		68DD1A5C1DBEA3EE00AE1CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DD1A5B1DBEA3EE00AE1CA7 /* Assets.xcassets */; };
 		68DD1A5F1DBEA3EE00AE1CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD1A5D1DBEA3EE00AE1CA7 /* LaunchScreen.storyboard */; };
 		68DD1A6A1DBEA3EF00AE1CA7 /* rainydayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD1A691DBEA3EF00AE1CA7 /* rainydayTests.swift */; };
 		68DD1A751DBEA3EF00AE1CA7 /* rainydayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD1A741DBEA3EF00AE1CA7 /* rainydayUITests.swift */; };
+		6A0C37590B97E520F4CE40A4 /* Pods_rainyday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699DCCEB9B6047FD8B163F63 /* Pods_rainyday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D3C8F7EB33907C811CEA40 /* Pods-rainyday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rainyday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rainyday/Pods-rainyday.debug.xcconfig"; sourceTree = "<group>"; };
+		683B4B661DC4E5A60083202F /* currentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = currentWeather.swift; sourceTree = "<group>"; };
+		68623C5A1DC4E2D400CFD2A3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		68DD1A511DBEA3EE00AE1CA7 /* rainyday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainyday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DD1A541DBEA3EE00AE1CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68DD1A561DBEA3EE00AE1CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68DD1A561DBEA3EE00AE1CA7 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		68DD1A591DBEA3EE00AE1CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68DD1A5B1DBEA3EE00AE1CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68DD1A5E1DBEA3EE00AE1CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		68DD1A701DBEA3EF00AE1CA7 /* rainydayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainydayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DD1A741DBEA3EF00AE1CA7 /* rainydayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainydayUITests.swift; sourceTree = "<group>"; };
 		68DD1A761DBEA3EF00AE1CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699DCCEB9B6047FD8B163F63 /* Pods_rainyday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rainyday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		815A041A0053F8F1E1626528 /* Pods-rainyday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rainyday.release.xcconfig"; path = "Pods/Target Support Files/Pods-rainyday/Pods-rainyday.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0C37590B97E520F4CE40A4 /* Pods_rainyday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ABBA0CA4C0EF526DA4AF0BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08D3C8F7EB33907C811CEA40 /* Pods-rainyday.debug.xcconfig */,
+				815A041A0053F8F1E1626528 /* Pods-rainyday.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		68DD1A481DBEA3EE00AE1CA7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				68DD1A681DBEA3EF00AE1CA7 /* rainydayTests */,
 				68DD1A731DBEA3EF00AE1CA7 /* rainydayUITests */,
 				68DD1A521DBEA3EE00AE1CA7 /* Products */,
+				4ABBA0CA4C0EF526DA4AF0BE /* Pods */,
+				EADD64982B42463853B832E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +118,13 @@
 			isa = PBXGroup;
 			children = (
 				68DD1A541DBEA3EE00AE1CA7 /* AppDelegate.swift */,
-				68DD1A561DBEA3EE00AE1CA7 /* ViewController.swift */,
+				68DD1A561DBEA3EE00AE1CA7 /* WeatherVC.swift */,
 				68DD1A581DBEA3EE00AE1CA7 /* Main.storyboard */,
 				68DD1A5B1DBEA3EE00AE1CA7 /* Assets.xcassets */,
 				68DD1A5D1DBEA3EE00AE1CA7 /* LaunchScreen.storyboard */,
 				68DD1A601DBEA3EE00AE1CA7 /* Info.plist */,
+				68623C5A1DC4E2D400CFD2A3 /* Constants.swift */,
+				683B4B661DC4E5A60083202F /* currentWeather.swift */,
 			);
 			path = rainyday;
 			sourceTree = "<group>";
@@ -125,6 +147,14 @@
 			path = rainydayUITests;
 			sourceTree = "<group>";
 		};
+		EADD64982B42463853B832E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				699DCCEB9B6047FD8B163F63 /* Pods_rainyday.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68DD1A791DBEA3EF00AE1CA7 /* Build configuration list for PBXNativeTarget "rainyday" */;
 			buildPhases = (
+				8E24737A3401B05ECDEF841E /* [CP] Check Pods Manifest.lock */,
 				68DD1A4D1DBEA3EE00AE1CA7 /* Sources */,
 				68DD1A4E1DBEA3EE00AE1CA7 /* Frameworks */,
 				68DD1A4F1DBEA3EE00AE1CA7 /* Resources */,
+				B4BE18E81C001942380D2E46 /* [CP] Embed Pods Frameworks */,
+				CCBEF5D69B8647CF65CEDE2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +290,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E24737A3401B05ECDEF841E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BE18E81C001942380D2E46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rainyday/Pods-rainyday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBEF5D69B8647CF65CEDE2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rainyday/Pods-rainyday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68DD1A4D1DBEA3EE00AE1CA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DD1A571DBEA3EE00AE1CA7 /* ViewController.swift in Sources */,
+				68DD1A571DBEA3EE00AE1CA7 /* WeatherVC.swift in Sources */,
 				68DD1A551DBEA3EE00AE1CA7 /* AppDelegate.swift in Sources */,
+				683B4B671DC4E5A60083202F /* currentWeather.swift in Sources */,
+				68623C5B1DC4E2D400CFD2A3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +496,7 @@
 		};
 		68DD1A7A1DBEA3EF00AE1CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D3C8F7EB33907C811CEA40 /* Pods-rainyday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EYBSHRM45T;
@@ -421,11 +505,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.frequen.rainyday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		68DD1A7B1DBEA3EF00AE1CA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815A041A0053F8F1E1626528 /* Pods-rainyday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EYBSHRM45T;
@@ -434,6 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.frequen.rainyday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +601,7 @@
 				68DD1A7B1DBEA3EF00AE1CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68DD1A7C1DBEA3EF00AE1CA7 /* Build configuration list for PBXNativeTarget "rainydayTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +610,7 @@
 				68DD1A7E1DBEA3EF00AE1CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68DD1A7F1DBEA3EF00AE1CA7 /* Build configuration list for PBXNativeTarget "rainydayUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +619,7 @@
 				68DD1A811DBEA3EF00AE1CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
